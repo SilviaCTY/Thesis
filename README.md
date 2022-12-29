@@ -26,5 +26,9 @@
 ### 模型建構
 * 分類模型（邏輯回歸、天真貝氏、決策樹、隨機森林、XGBoost）
 * 回歸模型（線性回歸、決策樹、支援向量回歸、KNN、隨機森林、XGBoost）
+### 預測與評估
+* 十折交叉驗證
+* 分類模型評估指標:準確率（Accuracy）、精確率（Precision）、召回率（Recall）、F1分數（F1-score）、AUC
+* 回歸模型評估指標:平均絕對誤差（MAE）、平均平方誤差（MSE）、決定係數（R-squared）、皮爾森積差相關分析（Pearson Correlation）
 ### 統計檢定
 * 詞法特徵（評論長度、句子數、平均句子長度、大寫、是否正確使用大寫、大寫的比率、小寫、小寫的比率、Type-Token Ratio、拼寫錯誤）、句法特徵 （Flesch Reading Ease、Flesch-Kincaid Grade Level、Gunning Fog Index、Automated Readability Index、The Coleman-Liau Index、The SMOG Index、標點符號）、詞彙特徵（SentiWordNet）、評價特徵（評論的評分、評論的極端、評論的天數）以上簡單變數做T檢定
